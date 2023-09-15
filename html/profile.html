@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
     <link rel="stylesheet" href="/css/profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
+  <div class="navbar">
+    <h2>profile</h2>
+    <h2>Filters</h2>
+    <h2>logo</h2>
+    <h2>status</h2>
+    <h2>community</h2>
+</div>
     <div class="main">
-        <div class="navbar">
-            <h2>profile</h2>
-            <h2>Filters</h2>
-            <h2>logo</h2>
-            <h2>status</h2>
-            <h2>community</h2>
-        </div>
         <div class="top">
             <div class="profile">
                 <div class="photo">
@@ -26,13 +27,124 @@
             <div class="info">
                 <h3>Full Name: Ravish Mohan Shetty</h3>
                 <h3>Phone no: 93561 25364</h3>
-                <h3>Eamil: ravishshetty03@gmail.com</h3>
+                <h3>Email: ravishshetty03@gmail.com</h3>
                 <h3>College Name: Thadomal Shahani Engineering College</h3>
                 <h3>College Id: TE1505-31</h3>
             </div>
         </div>
-        <div class="stat">mnfdbkjbfdkjb</div>
-        <div class="bottom"></div>
+        <div class="stat">
+            <h3>Application Form Status:</h3>
+            <div id="bar">
+                <div class="barin">.</div>
+            </div>
+            <h4>20%</h4>
+            
+        </div>
+        <div class="bottom">
+            <form>
+                <h2>Student Application Form</h2>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                  <option value="">Select Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+                
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+            
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+            
+                <label for="pin-code">Pin Code:</label>
+                <input type="text" id="pin-code" name="pin-code" required>
+            
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required>
+            
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required>
+
+                <h3>High School College Information:</h3>
+
+                <label for="Sname">Name:</label>
+                <input type="text" id="Sname" required>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <label for="Gyear">Graduation Year:</label>
+                <input type="text" id="Gyear" required>
+
+                <h3>Extracuricular Activities:</h3>
+
+                <label for="Act1">Activity 1:</label>
+                <input type="text" class="Act1" required>
+
+                <label for="Act2">Activity 2:</label>
+                <input type="text" class="Act2" required>
+
+                <label for="Act3">Activity 3:</label>
+                <input type="text" class="Act3">
+
+                <label for="Act4">Activity 4:</label>
+                <input type="text" class="Act4">
+
+                <h3>Further Education</h3>
+                <label for="fedu">Intended Major:</label>
+                <select id="fedu" required>
+                  <option value="majors">Select Major</option>
+                  <option value="masters">Masters</option>
+                  <option value="bachelors">Bachelors</option>
+                  <option value="phd">Phd</option>
+                  <option value="course">Course</option>
+                </select>
+
+                <label for="inc">Family Annual Income:</label>
+                <input type="text" class="inc">
+
+                <label for="Act4">Letter of Recommendations:</label>
+                <label for="files">Select files:</label>
+                <input type="file" id="files" name="files" multiple><br><br>
+                <input class="btny" type="submit">
+
+                <h3>Submission Checklist:</h3>
+                <div class="checkboxes">
+                  <div class="checkbox">
+                    <input type="checkbox" name="cb1" value="Completed Application Form">
+                    <label for="cb1">Completed Application Form</label>
+                  </div>
+                  <div class="checkbox">
+                    <input type="checkbox" name="cb2" value="HighSchool/ College Transcript">
+                    <label for="cb1">HighSchool/ College Transcript</label>
+                  </div>
+                  <div class="checkbox">
+                    <input type="checkbox" name="cb3" value="List of Extra Curriculars">
+                    <label for="cb3">List of Extra Curriculars</label>
+                  </div>
+                  <div class="checkbox">
+                    <input type="checkbox" name="cb4" value="Essays">
+                    <label for="cb4">Essays</label>
+                  </div>
+                  <input type="checkbox" name="cb5" value="Letters of Recommendation">
+                    <label for="cb4">Letters of Recommendation</label>
+                  </div>
+                  <button class="btnz">Save</button>
+                </div>
+
+                
+              </form>
+            </body>
+        </div>
     </div>
 </body>
 </html>
