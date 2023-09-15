@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
     <link rel="stylesheet" href="/css/profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
     <div class="main">
@@ -31,8 +32,158 @@
                 <h3>College Id: TE1505-31</h3>
             </div>
         </div>
-        <div class="stat">mnfdbkjbfdkjb</div>
-        <div class="bottom"></div>
+        <div class="stat">
+            <h3>Application Form Status:</h3>
+            <div id="bar">
+                <div class="barin">.</div>
+            </div>
+            <h4>20%</h4>
+            
+        </div>
+        <div class="bottom">
+            <form>
+                <h2>Student Registration Form</h2>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                  <option value="">Select Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+                
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+            
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+            
+                <label for="pin-code">Pin Code:</label>
+                <input type="text" id="pin-code" name="pin-code" required>
+            
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required>
+            
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required>
+
+                <h3>High School College Information:</h3>
+
+                <label for="Sname">Name:</label>
+                <input type="text" id="Sname" required>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <label for="Gyear">Graduation Year:</label>
+                <input type="text" id="Gyear" required>
+
+                <h3>Extracuricular Activities:</h3>
+
+                <label for="Act1">Activity 1:</label>
+                <input type="text" class="Act1" required>
+
+                <label for="Act2">Activity 2:</label>
+                <input type="text" class="Act2" required>
+
+                <label for="Act3">Activity 3:</label>
+                <input type="text" class="Act3">
+
+                <label for="Act4">Activity 4:</label>
+                <input type="text" class="Act4">
+
+                <h3>Further Education</h3>
+                <label for="fedu">Intended Major:</label>
+                <select id="fedu" required>
+                  <option value="majors">Select Major</option>
+                  <option value="masters">Masters</option>
+                  <option value="bachelors">Bachelors</option>
+                  <option value="phd">Phd</option>
+                  <option value="course">Course</option>
+
+                </select>
+                
+                
+
+
+
+
+
+            
+
+
+
+
+
+
+            
+            
+
+   
+              
+            
+                <label for="hobbies">Hobbies:</label>
+                <div class="checkboxes">
+                  <div class="checkbox">
+                    <input type="checkbox" id="hobby1" name="hobby1" value="reading">
+                    <label for="hobby1">Reading</label>
+                  </div>
+                  <div class="checkbox">
+                    <input type="checkbox" id="hobby2" name="hobby2" value="playing">
+                    <label for="hobby2">Playing</label>
+                  </div>
+                  <div class="checkbox">
+                    <input type="checkbox" id="hobby3" name="hobby3" value="singing">
+                    <label for="hobby3">Singing</label>
+                  </div>
+                  <div class="checkbox">
+                    <input type="checkbox" id="hobby4" name="hobby4" value="dancing">
+                    <label for="hobby4">Dancing</label>
+                  </div>
+                </div>
+            
+                <label for="qualification">Qualification:</label>
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                  </tr>
+                  <tr>
+                    <td>10th</td>
+                    <td><input type="text" name="10-board" required></td>
+                    <td><input type="text" name="10-percentage" required></td>
+                    <td><input type="text" name="10-year-of-passing" required></td>
+                  </tr>
+                  <tr>
+                    <td>12th</td>
+                    <td><input type="text" name="12-board" required></td>
+                    <td><input type="text" name="12-percentage" required></td>
+                    <td><input type="text" name="12-year-of-passing" required></td>
+                  </tr>
+                  <tr>
+                    <td>Graduation</td>
+                    <td><input type="text" name="grd-board" required></td>
+                    <td><input type="text" name="grd-percentage" required></td>
+                    <td><input type="text" name="grd-year-of-passing" required></td>
+                  </tr>
+                </table>
+            
+                <div class="buttons">
+                  <button type="reset">Reset</button>
+                  <button type="submit">Submit</button>
+                </div>
+              </form>
+            </body>
+        </div>
     </div>
 </body>
 </html>
