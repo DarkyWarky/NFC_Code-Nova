@@ -87,6 +87,3 @@ rightArrow.forEach((button) => {
 leftArrow.forEach((button) => {
   button.addEventListener('click', slideLeft);
 });
-
-
-
