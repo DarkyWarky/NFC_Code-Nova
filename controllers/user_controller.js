@@ -46,7 +46,7 @@ const login_user =async(req,res)=>{
             if (password_match) {
                 res.status(200).send({
                     success:true,
-                    msg:"login Succesfull",
+                    msg:"login Successfull",
                 })
             }
             else{
