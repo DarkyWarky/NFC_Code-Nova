@@ -8,14 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
+  <div class="navbar">
+    <h2>profile</h2>
+    <h2>Filters</h2>
+    <h2>logo</h2>
+    <h2>status</h2>
+    <h2>community</h2>
+</div>
     <div class="main">
-        <div class="navbar">
-            <h2>profile</h2>
-            <h2>Filters</h2>
-            <h2>logo</h2>
-            <h2>status</h2>
-            <h2>community</h2>
-        </div>
         <div class="top">
             <div class="profile">
                 <div class="photo">
@@ -42,7 +42,7 @@
         </div>
         <div class="bottom">
             <form>
-                <h2>Student Registration Form</h2>
+                <h2>Student Application Form</h2>
                 <label for="first-name">First Name:</label>
                 <input type="text" id="first-name" name="first-name" required>
             
@@ -107,80 +107,41 @@
                   <option value="bachelors">Bachelors</option>
                   <option value="phd">Phd</option>
                   <option value="course">Course</option>
-
                 </select>
-                
-                
 
+                <label for="inc">Family Annual Income:</label>
+                <input type="text" class="inc">
 
+                <label for="Act4">Letter of Recommendations:</label>
+                <label for="files">Select files:</label>
+                <input type="file" id="files" name="files" multiple><br><br>
+                <input class="btny" type="submit">
 
-
-
-            
-
-
-
-
-
-
-            
-            
-
-   
-              
-            
-                <label for="hobbies">Hobbies:</label>
+                <h3>Submission Checklist:</h3>
                 <div class="checkboxes">
                   <div class="checkbox">
-                    <input type="checkbox" id="hobby1" name="hobby1" value="reading">
-                    <label for="hobby1">Reading</label>
+                    <input type="checkbox" name="cb1" value="Completed Application Form">
+                    <label for="cb1">Completed Application Form</label>
                   </div>
                   <div class="checkbox">
-                    <input type="checkbox" id="hobby2" name="hobby2" value="playing">
-                    <label for="hobby2">Playing</label>
+                    <input type="checkbox" name="cb2" value="HighSchool/ College Transcript">
+                    <label for="cb1">HighSchool/ College Transcript</label>
                   </div>
                   <div class="checkbox">
-                    <input type="checkbox" id="hobby3" name="hobby3" value="singing">
-                    <label for="hobby3">Singing</label>
+                    <input type="checkbox" name="cb3" value="List of Extra Curriculars">
+                    <label for="cb3">List of Extra Curriculars</label>
                   </div>
                   <div class="checkbox">
-                    <input type="checkbox" id="hobby4" name="hobby4" value="dancing">
-                    <label for="hobby4">Dancing</label>
+                    <input type="checkbox" name="cb4" value="Essays">
+                    <label for="cb4">Essays</label>
                   </div>
+                  <input type="checkbox" name="cb5" value="Letters of Recommendation">
+                    <label for="cb4">Letters of Recommendation</label>
+                  </div>
+                  <button class="btnz">Save</button>
                 </div>
-            
-                <label for="qualification">Qualification:</label>
-                <table>
-                  <tr>
-                    <th></th>
-                    <th>Board</th>
-                    <th>Percentage</th>
-                    <th>Year of Passing</th>
-                  </tr>
-                  <tr>
-                    <td>10th</td>
-                    <td><input type="text" name="10-board" required></td>
-                    <td><input type="text" name="10-percentage" required></td>
-                    <td><input type="text" name="10-year-of-passing" required></td>
-                  </tr>
-                  <tr>
-                    <td>12th</td>
-                    <td><input type="text" name="12-board" required></td>
-                    <td><input type="text" name="12-percentage" required></td>
-                    <td><input type="text" name="12-year-of-passing" required></td>
-                  </tr>
-                  <tr>
-                    <td>Graduation</td>
-                    <td><input type="text" name="grd-board" required></td>
-                    <td><input type="text" name="grd-percentage" required></td>
-                    <td><input type="text" name="grd-year-of-passing" required></td>
-                  </tr>
-                </table>
-            
-                <div class="buttons">
-                  <button type="reset">Reset</button>
-                  <button type="submit">Submit</button>
-                </div>
+
+                
               </form>
             </body>
         </div>
