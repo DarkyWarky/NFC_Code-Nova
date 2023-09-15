@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0 0 0 0 ;
+    
 }
 .bar{
     background-color:#125869 ;
@@ -26,6 +27,7 @@ body{
     align-items: center;
     color: #ffffff;
 }
+
 body{
     background-color:  #ffffff;
 
