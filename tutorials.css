@@ -3,6 +3,13 @@
     background-color:#125869 ;
     color: #ffffff;
     padding: 2px 0 2px 6px;
+    height: 50px;
+    transition :0.5s;
+   
+
+}
+.barextend{
+    height:1500px;
 }
 body{
     background-color:  #ffffff;
@@ -11,7 +18,11 @@ body{
 nav{
     color: #ffffff;
     background-color: #125869;
+    height: 100px;
 }
 .head{
-    
+ background-color: #09272f;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
