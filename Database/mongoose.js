@@ -36,16 +36,4 @@ async function fetchUniversities() {
   }
 }
 
-fetchUniversities()
-  .then((universities) => {
-    if (universities.length === 0) {
-      console.log("No universities found.");
-    } else {
-      console.log("Universities data:", universities);
-    }
-  })
-  .catch((err) => {
-    console.error("Error:", err);
-  });
-
-  
+module.exports = fetchUniversities;

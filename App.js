@@ -3,7 +3,7 @@ const {engine} = require('express-handlebars')
 const path = require('path')
 const route = require("./routes/routers.js");
 const mongoose = require('mongoose')
-const user_routes =require('./routes/userroute.js')
+// const user_routes =require('./routes/user_routes.js')
 
 require('dotenv').config()
 
@@ -25,7 +25,7 @@ app.set('views', './views');
 
 app.use('/', route);
 
-app.use('/auth',user_routes);
+// app.use('/auth',user_routes);
 
 app.listen(4000,()=>{
   console.log("http://localhost:4000")
