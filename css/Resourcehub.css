@@ -95,5 +95,62 @@ nav {
 }
 .left-arrow:hover,.right-arrow:hover{
     scale:4;
+}
+.location{
+    background-color: antiquewhite;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    overflow: hidden;
+}
+.location-head{
 
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+input[type=checkbox]{
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+.degree{
+    background-color: antiquewhite;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    overflow: hidden;
+}
+
+.funds{
+    background-color: antiquewhite;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    overflow: hidden;
+}
+.dates{
+    background-color: antiquewhite;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    overflow: hidden;
+}
+.filter-extend{
+    height: 220px;
 }
