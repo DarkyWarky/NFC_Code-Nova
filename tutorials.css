@@ -7,6 +7,7 @@
     transition :0.5s;
     text-align: center;
     font-size: larger;
+    
    
 
 }
@@ -15,6 +16,7 @@
     border-radius: 20px;
     padding: 20px 20px;
     align-items: center;
+    color: #ffffff;
 }
 body{
     background-color:  #ffffff;
@@ -69,7 +71,7 @@ flex-direction: column;
 /* Style the buttons that are used to open and close the faq-page body */
 .faq-page {
     /* background-color: #eee; */
-    color: #444;
+    color: #f9f5f5;
     cursor: pointer;
     padding: 30px 20px;
     width: 60%;
@@ -91,13 +93,14 @@ flex-direction: column;
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .faq-page:hover {
-    background-color: #F9F9F9;
+    background-color: #1f2c2f;
+    transition: 0.5s;
 }
 
 /* Style the faq-page panel. Note: hidden by default */
 .faq-body {
     padding: 0 18px;
-    background-color: white;
+    background-color: rgb(63, 97, 99);
     display: none;
     overflow: hidden;
 }
