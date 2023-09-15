@@ -101,17 +101,6 @@ nav {
     display: flex;
     flex-direction: column;
 }
-label{
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-input[type=checkbox]{
-    width: 40px;
-    height: auto;
-    cursor: pointer;
-}
 .degree,.funds,.dates,.location{
     background-color: antiquewhite;
     margin: 10px;
@@ -138,4 +127,18 @@ input[type=checkbox]{
 }
 .remove-filter:hover{
     background-color: red;
+}
+.checkbox button{
+    background-color: red;
+    width: 200px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.checkbox button:hover{
+    scale: 1.1;
 }
