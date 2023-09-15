@@ -1,4 +1,7 @@
-
+body{
+    margin: 0px;
+    padding: 0 0 0 0 ;
+}
 .bar{
     background-color:#125869 ;
     color: #ffffff;
@@ -10,6 +13,11 @@
     font-weight: bolder;
    
 
+}
+.youtube .barextend{
+    display: grid ;
+    grid-template-columns: repeat(auto-fit,minmax(30rem ,1fr));
+    gap:1 rem;
 }
 .barextend{
     height:1500px;
@@ -112,4 +120,8 @@ flex-direction: column;
 .active:after {
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
+}
+iframe{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6); 
 }
