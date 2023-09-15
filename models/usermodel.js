@@ -20,9 +20,14 @@ const user = mongoose.Schema({
     collegename:{
         type:String,
         required:true
-    },isverified:{
+    },
+    isverified:{
         type:Boolean,
         default:false
+    },
+    mobilenumber:{
+        type:Number,
+        required:true
     }
 })
 
