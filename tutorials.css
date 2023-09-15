@@ -1,0 +1,37 @@
+
+.bar{
+    background-color:#125869 ;
+    color: #ffffff;
+    padding: 2px 0 2px 6px;
+    height: 50px;
+    transition :0.5s;
+   
+
+}
+.barextend{
+    height:1500px;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+body{
+    background-color:  #ffffff;
+
+}
+nav{
+    color: #ffffff;
+    background-color: #125869;
+    height: 100px;
+}
+.head{
+ background-color: #09272f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.textc{
+    background-color: aliceblue;
+    text-align: left;
+    padding: 2px 10px 2px 10px;
+    border-radius: 20px;
+}
