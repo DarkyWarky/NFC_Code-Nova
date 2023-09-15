@@ -43,6 +43,7 @@ nav {
     right: 0; 
     transform: translateX(0%); 
     margin: 10px 0px;
+    transition: transform 0.5s;
 }
 
 .uni-name {
@@ -95,9 +96,6 @@ nav {
 }
 .left-arrow:hover,.right-arrow:hover{
     scale:4;
-}
-.location-head{
-
 }
 .checkbox{
     display: flex;
