@@ -21,5 +21,8 @@ nav{
     height: 100px;
 }
 .head{
-  
+ background-color: #09272f;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
