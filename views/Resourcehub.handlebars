@@ -64,21 +64,22 @@
 
   <div class="content">
     <!-- actual content -->
-    <div class="uni-info">
-      <h1 class="uni-name">Name will be here</h1>
-      <div class="innercontent">
-        <img src="../images/backdrop2.jpg" alt="Img" class="img-content" />
-        <div class="innercontent-info">
-          <p>Location:{{data.location}}</p>
-          <p>Degree:{{data.degree}}</p>
-          <p>Date:{{data.data}}</p>
-          <p>Funds:{{data.funds}}</p>
+    {{#each universities}}
+      <div class="uni-info">
+        <h1 class="uni-name">{{title}}</h1>
+        <div class="innercontent">
+          <div class="innercontent-info">
+            <p>Location: {{location}}</p>
+            <p>Degree: {{degrees}}</p>
+            <p>Date: {{date}}</p>
+            <p>Funds: {{funds}}</p>
+          </div>
         </div>
+        <!-- BUTTONS -->
+        <i class="bx bxs-right-arrow right-arrow"></i>
+        <button class="apply-btn">Apply Now!</button>
+        <i class="bx bxs-left-arrow left-arrow"></i>
       </div>
-      <!-- BUTTONS -->
-      <i class="bx bxs-right-arrow right-arrow"></i>
-      <button class="apply-btn">Apply Now!</button>
-      <i class="bx bxs-left-arrow left-arrow"></i>
-    </div>
+    {{/each}}
   </div>
 </div>
