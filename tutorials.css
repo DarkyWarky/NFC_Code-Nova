@@ -1,4 +1,7 @@
-
+body{
+    margin: 0px;
+    padding: 0 0 0 0 ;
+}
 .bar{
     background-color:#125869 ;
     color: #ffffff;
@@ -6,13 +9,18 @@
     height: 50px;
     transition :0.5s;
     text-align: center;
-    font-size: larger;
-    
+    font-size: xx-large;
+    font-weight: bolder;
    
 
 }
+.youtube .barextend{
+    display: grid ;
+    grid-template-columns: repeat(auto-fit,minmax(28rem ,0.5fr));
+    gap:1 rem;
+}
 .barextend{
-    height:1410px;
+    height:1500px;
     border-radius: 20px;
     padding: 20px 20px;
     align-items: center;
@@ -48,14 +56,9 @@ nav{
 }
 
 
-
-
-body{
-    font-family: 'Work Sans', sans-serif;
-}
 .faq-heading{
     border-bottom: #777;
-    padding: 20px 60px;
+    padding: 2px 6px;
 }
 .faq-container{
 display: flex;
@@ -117,4 +120,8 @@ flex-direction: column;
 .active:after {
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
+}
+iframe{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6); 
 }
