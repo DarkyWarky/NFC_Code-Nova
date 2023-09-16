@@ -4,11 +4,45 @@
     box-sizing: border-box;
 }
 
-nav {
-    width: 100%;
+.header{
+    background: #125869;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7%;
+    border-bottom: var(--border);
+    top:0; left:0; right:0;
+    z-index: 1000;
     height: 100px;
-    background-color: gray;
 }
+
+.header .logo img{
+    margin-top: 20%;
+    height: 180px;
+    width: 180px;
+    align-items: center;
+    margin-right: 90%;
+    vertical-align: middle;
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1rem;
+    color: #fff;
+}
+.header .navbar a:hover{
+    color: var(--secondary);
+    border-bottom: .5rem solid var(--primary);
+    padding-bottom: .1rem;
+}
+.header .icon div{
+    color: var(--text);
+    cursor: pointer;
+    font-size: 2.5rem;
+    
+}
+.header .icon div:hover{
+    color: var(--primary);
+} 
 
 .sidebar {
     width: 300px;
@@ -28,26 +62,29 @@ nav {
 
 .content {
     width: 82%;
-    background-color: red;
+    background-color: #BCDBF7;
     display: flex;
     overflow: hidden;
     position: relative;
+    padding: 10px;
 }
 
 .uni-info {
     background-color: aliceblue;
     padding: 10px;
+    padding-top: 30px;
     min-width: 100%;
     height: 500px;
     text-align: center;
     right: 0; 
+    border-radius: 10px;
     transform: translateX(0%); 
-    margin: 10px 0px;
     transition: transform 0.5s;
 }
 
 .uni-name {
     font-size: 50px;
+    margin-bottom: 30px;
 }
 .img-content{
     width: 400px;
@@ -58,6 +95,7 @@ nav {
     justify-content: space-evenly;
     text-align: center;
     margin-right: 50px;
+    
     flex-wrap: wrap;
 }
 .innercontent p{
@@ -70,6 +108,7 @@ nav {
     scale: 3.5;
     transition: 0.5s;
     cursor: pointer;
+
 }
 .left-arrow{
     position: absolute;
@@ -102,7 +141,7 @@ nav {
     flex-direction: column;
 }
 .degree,.funds,.dates,.location{
-    background-color: antiquewhite;
+    background-color: #F0F8FF;
     margin: 10px;
     text-align: center;
     border-radius: 20px;
@@ -111,6 +150,7 @@ nav {
     overflow: hidden;
     cursor: pointer;
     transition: 1s;
+    min-height: 40px;
 }
 .filter-extend{
     height: 100%;
@@ -121,15 +161,16 @@ nav {
     text-align: center;
     margin: 0px auto;
     border-radius: 15px;
-    background-color: white;
+    background-color: #F0F8FF;
     transition: 0.5s;
     cursor: pointer;
 }
 .remove-filter:hover{
-    background-color: red;
+    background-color: #125869;
 }
 .checkbox button{
-    background-color: red;
+    background-color: #125869;
+    color: white;
     width: 200px;
     margin: 5px;
     border-radius: 20px;
