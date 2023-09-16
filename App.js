@@ -9,7 +9,7 @@ require('dotenv').config()
 
 const app = express();
 
-mongoose.connect(process.env.MONGO_DB_CONNECTION_STRING)
+mongoose.connect('mongodb+srv://Zwar:DarkyWarky@zwardb.1makfjy.mongodb.net/Nfc_hackathon')
 
 app.use('/public', express.static(path.join(__dirname, 'public'), {
     setHeaders: (res, path) => {
