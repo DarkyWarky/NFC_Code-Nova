@@ -83,12 +83,17 @@ body{
     margin-left: 55%;
     width: 100%;
 }
-.barbarextend{
-    height:150px;
+.barextend{
+    height:120px;
     border-radius: 20px;
     align-items: center;
     color: var(--text);
     text-transform: uppercase;
+}
+.ok p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 2%;
 }
 
 body{
