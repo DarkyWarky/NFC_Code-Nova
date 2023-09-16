@@ -157,3 +157,6 @@ input.has-value + label {
     scale: 1;
     transition: 0.2s;
 }
+a{
+    color: inherit;
+}
