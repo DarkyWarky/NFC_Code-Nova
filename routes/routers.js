@@ -23,11 +23,44 @@ router.get("/",(req,res)=>{
 })
 router.get("/tutorial",(req,res)=>{
   let data = {
-    css: '../public/css/tutorials.css'
+    css: '../public/css/tutorials.css',
+    script: '../public/js/main.js'
   };
   res.render("tutorial",data)
 })
-
+router.get("/login",(req,res)=>{
+  let data = {
+    css: '../public/css/signup.css',
+    script: '../public/js/in.js'
+  };
+  res.render("login",data)
+})
+router.get("/signup",(req,res)=>{
+  let data = {
+    css: '../public/css/signup.css',
+    script: '../public/js/in.js'
+  };
+  res.render("signup",data)
+})
+router.get("/style",(req,res)=>{
+  let data = {
+    css: '../public/css/style.css',
+    
+  };
+  res.render("status",data)
+})
+router.get("/status",(req,res)=>{
+  let data = {
+    css: '../public/css/status.css',
+  };
+  res.render("status",data)
+})
+router.get("/profile",(req,res)=>{
+  let data = {
+    css: '../public/css/profile.css',
+  };
+  res.render("profile",data)
+})
 
 
 
