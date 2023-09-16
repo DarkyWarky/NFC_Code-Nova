@@ -47,7 +47,7 @@ router.get("/style",(req,res)=>{
     css: '../public/css/style.css',
     
   };
-  res.render("status",data)
+  res.render("style",data)
 })
 router.get("/status",(req,res)=>{
   let data = {
