@@ -23,7 +23,15 @@ router.get("/",(req,res)=>{
 })
 router.get("/tutorial",(req,res)=>{
   let data = {
-    css: '../public/css/tutorials.css'
+    css: '../public/css/tutorials.css',
+    script: '../public/js/main.js'
+  };
+  res.render("tutorial",data)
+})
+router.get("/tutorial",(req,res)=>{
+  let data = {
+    css: '../public/css/tutorials.css',
+    script: '../public/js/main.js'
   };
   res.render("tutorial",data)
 })
