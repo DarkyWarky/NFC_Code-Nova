@@ -43,6 +43,7 @@ nav {
     right: 0; 
     transform: translateX(0%); 
     margin: 10px 0px;
+    transition: transform 0.5s;
 }
 
 .uni-name {
@@ -96,23 +97,9 @@ nav {
 .left-arrow:hover,.right-arrow:hover{
     scale:4;
 }
-.location-head{
-
-}
 .checkbox{
     display: flex;
     flex-direction: column;
-}
-label{
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-input[type=checkbox]{
-    width: 40px;
-    height: auto;
-    cursor: pointer;
 }
 .degree,.funds,.dates,.location{
     background-color: antiquewhite;
@@ -140,4 +127,18 @@ input[type=checkbox]{
 }
 .remove-filter:hover{
     background-color: red;
+}
+.checkbox button{
+    background-color: red;
+    width: 200px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.checkbox button:hover{
+    scale: 1.1;
 }

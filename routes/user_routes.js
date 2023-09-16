@@ -5,7 +5,6 @@ user_route.use(bodyParser.json());
 user_route.use(bodyParser.urlencoded({ extended: true }));
 
 const user_controller = require("../controllers/user_controller");
-const auth = require("../middleware/auth");
 
 
 // POST REQUESTS
