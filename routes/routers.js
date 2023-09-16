@@ -14,8 +14,33 @@ const fetchUniversitiesByDegree1 =require ('../Database/degree/phd')
 const fetchUniversitiesByDegree2 =require ('../Database/degree/bachelor')
 const fetchUniversitiesByDegree3 =require ('../Database/degree/course')
 
+router.get("/",(req,res)=>{
+  let data = {
+    css: '../public/css/index.css',
+    script: '../public/js/main.js'
+  };
+  res.render("home",data)
+})
+router.get("/tutorial",(req,res)=>{
+  let data = {
+    css: '../public/css/tutorials.css',
+    script: '../public/js/main.js'
+  };
+  res.render("tutorial",data)
+})
+router.get("/tutorial",(req,res)=>{
+  let data = {
+    css: '../public/css/tutorials.css',
+    script: '../public/js/main.js'
+  };
+  res.render("tutorial",data)
+})
 
-router.get("/", async (req, res) => {
+
+
+
+
+router.get("/allunis", async (req, res) => {
   try {
     const universities = await fetchUniversities();
 
